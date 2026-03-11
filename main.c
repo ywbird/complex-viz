@@ -53,6 +53,8 @@ int main()
   }
 
   printf("Generated %s\n", output_path);
+  
+  fclose(f);
 
   return 0;
 }
